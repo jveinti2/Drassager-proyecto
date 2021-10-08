@@ -1,8 +1,9 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
-    background-image: url(/Drassager/drassager/src/assests/v870-tang-36.jpg);
+    background-image: url(/drassager/src/assests/v870-tang-36.jpg);
     background-repeat: no-repeat;
     background-position: cover;
 }
@@ -19,54 +20,83 @@ body {
 .form-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    margin-left: 60px;
-    width: 230px;
-    height: 290px;
+    margin-left: 100px;
+    width: 430px;
+    height: 500px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .logo {
-    margin: 10px;
-    width: 130px;
+    margin: 40px;
+    width: 200px;
     justify-self: center;
 }
 
 .form p {
-    font-size: 10px;
-    margin: 10px 0 5px 10px;
+    font-size: 15px;
+    margin: 25px 0 10px 38px;
     
 }
 
 input {
     display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 30px;
     background-color: #f5f5f5;
     border: 1px solid #3e3e3e;
-    margin: 0 auto;
-    width: 90%;
-    height: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.form-inputs {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .helps {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 5px;
+    
+}
+
+.help_container-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.helps-left {
+    margin-left: 38px;
+    margin-right: 5px;
+    width: 15px;
+    color: #3e3e3e;
+}
+
+.helps-right {
+    margin-top: 8px;
+    margin-right: 38px;
+    text-align: right;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .btns {
+    margin-top: 25px;
     display: grid;
     place-items: center;
     
 }
 .btn-cta {
     display: block;
-    margin: 8px auto;
-    padding: 3px 15px;
-
+    margin: 10px auto;
+    padding: 6px 20px;
+    font-size: 16px;
     text-decoration: none;
     border-radius: 6px;
     background-color: #63a8db;
     color: #fff;
-    font-size: 12px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 
 }
