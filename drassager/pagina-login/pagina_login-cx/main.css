@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: url(/Drassager/drassager/src/assests/v870-tang-36.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: left;
+    align-content: center;
+
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin-left: 60px;
+    width: 230px;
+    height: 290px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.logo {
+    margin: 10px;
+    width: 130px;
+    justify-self: center;
+}
+
+.form p {
+    font-size: 10px;
+    margin: 10px 0 5px 10px;
+    
+}
+
+input {
+    display: block;
+    background-color: #f5f5f5;
+    border: 1px solid #3e3e3e;
+    margin: 0 auto;
+    width: 90%;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.helps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btns {
+    display: grid;
+    place-items: center;
+    
+}
+.btn-cta {
+    display: block;
+    margin: 8px auto;
+    padding: 3px 15px;
+
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #63a8db;
+    color: #fff;
+    font-size: 12px;
+
+}
