@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -16,9 +17,17 @@ ul {
 }
 
 ul li {
-    padding: 25px 0;
+    padding: 22px 0;
     list-style: none;
     font-size: 16px;
+    border-radius: 10px;
+}
+
+.dashboard{
+    background-color: #fff;
+}
+.dashboard a {
+    color: black;
 }
 
 ul li a {
@@ -33,12 +42,18 @@ ul li a:hover {
     color: black;
 }
 
+li img {
+    width: 20px;
+    filter: invert(100%);
+
+}
+
 .modulos {
     display: inline-block;
     position: absolute;
     top: 20px;
     left: 280px;
-    width: 75%;
+    width: 77%;
     height: 90%;
     border-radius: 10px;
     background-color: #fff;

@@ -1,102 +1,90 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 body {
-    background-image: url(/drassager/src/assests/v870-tang-36.jpg);
+    background-image: url(/drassager/pagina-login/assests/fondos/cx.jpeg);
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: 100%;
 }
 
 .login {
+    display: grid;
     width: 100%;
     height: 100vh;
-    display: grid;
     justify-content: left;
     align-content: center;
-
 }
 
 .form-container {
+    margin-left: 90px;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    margin-left: 100px;
-    width: 430px;
-    height: 500px;
+    width: 400px;
+    height: 490px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .logo {
-    margin: 40px;
+    margin: 30px;
     width: 200px;
     justify-self: center;
 }
+.form {
+  margin: 15px 0 5px 10px;  
+}
 
 .form p {
-    font-size: 15px;
-    margin: 25px 0 10px 38px;
-    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    opacity: 0.5;
 }
+
 
 input {
+    margin:  auto;
+    padding: 7px;
     display: block;
-    margin: 0 auto;
-    width: 80%;
-    height: 30px;
-    background-color: #f5f5f5;
-    border: 1px solid #3e3e3e;
+    width: 85%;
+    height: 15px;
+    border: 1px solid;
     border-radius: 10px;
-}
-
-.form-inputs {
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    background-color: #f5f5f5;
 }
 
 .helps {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5px;
-    
-}
-
-.help_container-checkbox {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-.helps-left {
-    margin-left: 38px;
-    margin-right: 5px;
-    width: 15px;
-    color: #3e3e3e;
-}
-
-.helps-right {
-    margin-top: 8px;
-    margin-right: 38px;
-    text-align: right;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.btns {
-    margin-top: 25px;
-    display: grid;
-    place-items: center;
-    
-}
-.btn-cta {
-    display: block;
-    margin: 10px auto;
-    padding: 6px 20px;
     font-size: 16px;
-    text-decoration: none;
-    border-radius: 6px;
-    background-color: #63a8db;
-    color: #fff;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
 
+.help-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.help-block input {
+    margin: 7px 0;
+}
+.help-block p {
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
+.btns{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.btns a {
+    margin: 10px auto;
+    padding: 6px 18px;
+    display: block;
+    color: #fff;
+    background-color: #63a8db;
+    text-decoration: none;
+    border-radius: 5px;
 }
