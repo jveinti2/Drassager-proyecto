@@ -23,10 +23,10 @@ ul li {
     font-size: 16px;
     border-radius: 20px;
 }
-.dashboard {
+.calendario {
     background-color: #ebf2f8;
 }
-.dashboard a {
+.calendario a {
     color: black;
 }
 ul li a {
@@ -47,38 +47,15 @@ li img {
     border-radius: 10px;
     background-color: #ebf2f8;
 }
-.modulo-encabezado {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px 5px 0 10px;
-}
-.modulo-left {
-    margin-left: 20px;
-}
-
-.modulo-right {
-    margin: 10px 0;
-    padding-left: 10px;
-    padding-right: 6px;
-    padding-top: 6px;
-    border: 1px solid;
-    border-radius: 25px;
-    opacity: 0.5;
-    background-color: #fff;
-}
-.modulo-right img {
-    width: 20px;
-}
-.modulo-right input {
-    width: 80%;
-    margin-bottom: 5px;
-    border: none;
+.modulos h2 {
+    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .modulo-content img {
     margin-left: 150px;
     justify-content: center;
-    width: 140%;
+    width: 72%;
 }
 
 /* hover */

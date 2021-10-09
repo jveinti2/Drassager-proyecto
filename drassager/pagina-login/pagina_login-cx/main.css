@@ -60,6 +60,12 @@ input {
     grid-template-columns: 1fr 1fr;
     font-size: 16px;
 }
+.helps a {
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
 
 .help-block {
     display: grid;
@@ -87,4 +93,10 @@ input {
     background-color: #63a8db;
     text-decoration: none;
     border-radius: 5px;
+}
+
+/* hovers */
+.btns a:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
 }

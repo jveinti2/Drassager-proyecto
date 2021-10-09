@@ -3,11 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Estilos de sidebar */
 body {
     background-color: #6295e0;
 }
-
-/* Estilos sidebar */
 
 .logo-drassager {
     margin: 10px;
@@ -17,26 +16,33 @@ body {
 ul {
     padding: 0 20px;
 }
+
 ul li {
     padding: 22px 10px;
     list-style: none;
     font-size: 16px;
     border-radius: 20px;
 }
-.dashboard {
+
+.infecciones{
     background-color: #ebf2f8;
 }
-.dashboard a {
+.infecciones a {
     color: black;
 }
+
 ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 li img {
     width: 20px;
     filter: invert(100%);
 }
+
+
+/* Estilos del modulos */
 .modulos {
     display: inline-block;
     position: absolute;
@@ -47,42 +53,61 @@ li img {
     border-radius: 10px;
     background-color: #ebf2f8;
 }
+
+
 .modulo-encabezado {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px 5px 0 10px;
 }
-.modulo-left {
+
+.modulo-left{
     margin-left: 20px;
 }
 
 .modulo-right {
-    margin: 10px 0;
     padding-left: 10px;
-    padding-right: 6px;
-    padding-top: 6px;
+    padding-top: 2px;
+    margin: 10px 0;
     border: 1px solid;
     border-radius: 25px;
     opacity: 0.5;
     background-color: #fff;
 }
+
 .modulo-right img {
     width: 20px;
 }
+
 .modulo-right input {
-    width: 80%;
+    width: 90%;
     margin-bottom: 5px;
     border: none;
 }
 
-.modulo-content img {
+/* Estilos del modulos */
+.modulos {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    width: 77%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #ebf2f8;
+}
+.modulos h2 {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.main-content img {
     margin-left: 150px;
     justify-content: center;
-    width: 140%;
+    width: 55%;
 }
 
 /* hover */
-
 ul li:hover {
     background-color: #fff;
     transform: scale(0.95);

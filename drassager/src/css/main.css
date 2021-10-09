@@ -1,5 +1,5 @@
-/* Reboot Codes - Based on normalize.css v5.0.0
-**********************/
+/* Rebot de estilos */
+
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -44,12 +44,12 @@ main h1 {
   font-size: 40px;
   font-weight: 700;
   color: black;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 main h2 {
   margin-left: 380px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-size: 30px;
   font-weight: 500;
 
@@ -72,7 +72,9 @@ main div a {
 }
 
 main .img-btn {
+  margin: -9px auto;
   width: 40px;
+  
 }
 
 main div a:hover {
@@ -87,4 +89,15 @@ footer p {
   grid-column: 2;
   margin: 0 auto;
   font-size: 12px;
+}
+
+/* hovers */
+
+main div a:hover {
+  color: #006a96;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  transform: scale(0.95);
+  transition: 0.3s;
+
+
 }
